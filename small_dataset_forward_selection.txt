@@ -1,0 +1,120 @@
+Welcome to Feature Selection with Nearest Neighbor Algorithm
+Data File Selection:
+     1. To enter the file of your choice
+     2. To use default file
+ Enter input2
+Using default file --> C:\Users\EndUser\Desktop\AI_project2\CS205_SP_2022_SMALLtestdata__11.txt
+
+Analyzing the data...
+     Number of instances --> 300
+     Number of features -->  10
+     Number of classes --> 2
+
+Select the choice of feature selection to use for Nearest Neighbor Algorithm:
+     1. Forward Selection
+     2. Backward Elimination
+ 1
+Accuracy using all the features is 77.67 %
+
+start time is Fri Jun 10 18:46:03 2022
+Implementing Nearest Neighbor Algorithm using Forward Selection...
+
+
+     - Accuracy for the features [1]  -->  74.0 %
+     - Accuracy for the features [2]  -->  78.33 %
+     - Accuracy for the features [3]  -->  74.33 %
+     - Accuracy for the features [4]  -->  71.33 %
+     - Accuracy for the features [5]  -->  73.33 %
+     - Accuracy for the features [6]  -->  74.0 %
+     - Accuracy for the features [7]  -->  74.0 %
+     - Accuracy for the features [8]  -->  78.0 %
+     - Accuracy for the features [9]  -->  74.33 %
+     - Accuracy for the features [10]  -->  87.33 %
+
+   Local best feature set is [10] with accuracy -->  87.33 %
+   Best feature set so far is [10] with accuracy -->  87.33 %
+
+     - Accuracy for the features [10, 1]  -->  78.0 %
+     - Accuracy for the features [10, 2]  -->  95.67 %
+     - Accuracy for the features [10, 3]  -->  83.67 %
+     - Accuracy for the features [10, 4]  -->  85.33 %
+     - Accuracy for the features [10, 5]  -->  85.33 %
+     - Accuracy for the features [10, 6]  -->  84.33 %
+     - Accuracy for the features [10, 7]  -->  84.33 %
+     - Accuracy for the features [10, 8]  -->  80.33 %
+     - Accuracy for the features [10, 9]  -->  82.33 %
+
+   Local best feature set is [10, 2] with accuracy -->  95.67 %
+   Best feature set so far is [10, 2] with accuracy -->  95.67 %
+
+     - Accuracy for the features [10, 2, 1]  -->  90.33 %
+     - Accuracy for the features [10, 2, 3]  -->  90.67 %
+     - Accuracy for the features [10, 2, 4]  -->  92.67 %
+     - Accuracy for the features [10, 2, 5]  -->  91.67 %
+     - Accuracy for the features [10, 2, 6]  -->  88.67 %
+     - Accuracy for the features [10, 2, 7]  -->  92.33 %
+     - Accuracy for the features [10, 2, 8]  -->  90.0 %
+     - Accuracy for the features [10, 2, 9]  -->  91.0 %
+
+   Local best feature set is [10, 2, 4] with accuracy -->  92.67 %
+   Best feature set so far is [10, 2] with accuracy -->  95.67 %
+
+     - Accuracy for the features [10, 2, 4, 1]  -->  86.33 %
+     - Accuracy for the features [10, 2, 4, 3]  -->  86.0 %
+     - Accuracy for the features [10, 2, 4, 5]  -->  90.67 %
+     - Accuracy for the features [10, 2, 4, 6]  -->  86.33 %
+     - Accuracy for the features [10, 2, 4, 7]  -->  87.67 %
+     - Accuracy for the features [10, 2, 4, 8]  -->  88.67 %
+     - Accuracy for the features [10, 2, 4, 9]  -->  90.0 %
+
+   Local best feature set is [10, 2, 4, 5] with accuracy -->  90.67 %
+   Best feature set so far is [10, 2] with accuracy -->  95.67 %
+
+     - Accuracy for the features [10, 2, 4, 5, 1]  -->  85.67 %
+     - Accuracy for the features [10, 2, 4, 5, 3]  -->  86.0 %
+     - Accuracy for the features [10, 2, 4, 5, 6]  -->  87.33 %
+     - Accuracy for the features [10, 2, 4, 5, 7]  -->  86.33 %
+     - Accuracy for the features [10, 2, 4, 5, 8]  -->  86.33 %
+     - Accuracy for the features [10, 2, 4, 5, 9]  -->  87.0 %
+
+   Local best feature set is [10, 2, 4, 5, 6] with accuracy -->  87.33 %
+   Best feature set so far is [10, 2] with accuracy -->  95.67 %
+
+     - Accuracy for the features [10, 2, 4, 5, 6, 1]  -->  80.33 %
+     - Accuracy for the features [10, 2, 4, 5, 6, 3]  -->  84.33 %
+     - Accuracy for the features [10, 2, 4, 5, 6, 7]  -->  85.67 %
+     - Accuracy for the features [10, 2, 4, 5, 6, 8]  -->  84.67 %
+     - Accuracy for the features [10, 2, 4, 5, 6, 9]  -->  85.0 %
+
+   Local best feature set is [10, 2, 4, 5, 6, 7] with accuracy -->  85.67 %
+   Best feature set so far is [10, 2] with accuracy -->  95.67 %
+
+     - Accuracy for the features [10, 2, 4, 5, 6, 7, 1]  -->  82.67 %
+     - Accuracy for the features [10, 2, 4, 5, 6, 7, 3]  -->  85.0 %
+     - Accuracy for the features [10, 2, 4, 5, 6, 7, 8]  -->  81.33 %
+     - Accuracy for the features [10, 2, 4, 5, 6, 7, 9]  -->  84.0 %
+
+   Local best feature set is [10, 2, 4, 5, 6, 7, 3] with accuracy -->  85.0 %
+   Best feature set so far is [10, 2] with accuracy -->  95.67 %
+
+     - Accuracy for the features [10, 2, 4, 5, 6, 7, 3, 1]  -->  82.33 %
+     - Accuracy for the features [10, 2, 4, 5, 6, 7, 3, 8]  -->  77.67 %
+     - Accuracy for the features [10, 2, 4, 5, 6, 7, 3, 9]  -->  82.33 %
+
+   Local best feature set is [10, 2, 4, 5, 6, 7, 3, 1] with accuracy -->  82.33 %
+   Best feature set so far is [10, 2] with accuracy -->  95.67 %
+
+     - Accuracy for the features [10, 2, 4, 5, 6, 7, 3, 1, 8]  -->  75.0 %
+     - Accuracy for the features [10, 2, 4, 5, 6, 7, 3, 1, 9]  -->  79.67 %
+
+   Local best feature set is [10, 2, 4, 5, 6, 7, 3, 1, 9] with accuracy -->  79.67 %
+   Best feature set so far is [10, 2] with accuracy -->  95.67 %
+
+     - Accuracy for the features [10, 2, 4, 5, 6, 7, 3, 1, 9, 8]  -->  77.67 %
+
+   Local best feature set is [10, 2, 4, 5, 6, 7, 3, 1, 9, 8] with accuracy -->  77.67 %
+   Best feature set so far is [10, 2] with accuracy -->  95.67 %
+
+**** Accuracy using forward selection is 95.67 for the features [10, 2]  ****
+time taken to complete this algorithm 8.594875574111938  ****
+​
